@@ -1,0 +1,372 @@
+.BrandLogo {
+    font-size: 40px;
+    margin-right: 5px;
+    color: #113995;
+    cursor: pointer;
+  }
+  
+  .move_right {
+    padding-left: 70% !important;
+  }
+  
+  .brand-left {
+    padding-left: 4%;
+  }
+  
+  body {
+    background: #1A161F !important;
+  }
+  
+  .trending-container {
+    margin-top: 1em;
+    border-radius: 10px;
+    background-image: linear-gradient(to right top, #051937, #482954, #89375c, #bc5350, #d4833b);
+  }
+  .trending-container .trending-inner-container {
+    min-height: 50vh;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    color: #fff;
+  }
+  .trending-container .trending-inner-container .trending-image {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .trending-container .trending-inner-container .trending-image img {
+    height: 70%;
+    width: 83%;
+    border-radius: 10px;
+  }
+  .trending-container .trending-inner-container .trending-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .trending-container .trending-inner-container .trending-text h3 {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+  .trending-container .trending-inner-container .trending-text .genre-name {
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+  .trending-container .trending-inner-container .trending-text .genre, .trending-container .trending-inner-container .trending-text .watch-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .trending-container .trending-inner-container .trending-text .genre p, .trending-container .trending-inner-container .trending-text .watch-buttons p {
+    height: 2em;
+    width: 9em;
+    background-color: rgba(255, 255, 255, 0.235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .trending-container .trending-inner-container .trending-text .genre .watch-button-btn, .trending-container .trending-inner-container .trending-text .watch-buttons .watch-button-btn {
+    background-color: rgba(255, 255, 255, 0.652) !important;
+    cursor: pointer;
+    height: 3em;
+    width: 10em;
+    color: #051937;
+  }
+  .trending-container .trending-inner-container .trending-text .genre .trailer, .trending-container .trending-inner-container .trending-text .watch-buttons .trailer {
+    background-color: rgba(0, 0, 255, 0.705);
+    color: #fff;
+    cursor: pointer;
+    height: 3em;
+    width: 10em;
+  }
+  
+  .min-list-container {
+    margin-top: 3em;
+  }
+  
+  .min-list-inner-container {
+    display: flex;
+    flex-wrap: wrap !important;
+    margin-top: 3em 1 !important;
+    margin: 0 auto;
+    flex-direction: row;
+  }
+  .min-list-inner-container .min-movie-box {
+    width: 22%;
+    height: 13em;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    margin-bottom: 4em !important;
+  }
+  .min-list-inner-container .min-movie-box:hover {
+    transform: scale(1.1);
+  }
+  .min-list-inner-container .min-movie-box img {
+    height: 15em;
+    width: 15em;
+    border-radius: 10px;
+    position: relative;
+  }
+  .min-list-inner-container .min-movie-box .min-movie-text {
+    position: absolute;
+    width: 15em;
+    height: 4em;
+    background-color: rgba(255, 255, 255, 0.401);
+    padding: 0em 0.5em;
+    top: 10em;
+    color: #051937;
+    font-weight: 700;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .main-sign-up-container {
+    width: 100%;
+    background: #151521;
+    height: 100vh;
+  }
+  
+  .music-icon-box {
+    padding-top: 6em;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2em;
+  }
+  
+  .music-icon-box .music-icon {
+    width: 3em;
+    height: 3em;
+  }
+  
+  .music-icon-box .teal-head {
+    font-size: medium;
+    color: teal;
+    margin-top: 1em;
+    margin-bottom: 2em;
+  }
+  
+  .create-acount-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .create-acount-box h3 {
+    color: white;
+    font-size: 2.5em;
+    text-transform: capitalize;
+  }
+  
+  .user-form-container form {
+    padding-top: 2em;
+    margin: 0 auto;
+    padding-left: 1em;
+    border-radius: 5px;
+  }
+  
+  .user-form-container form div {
+    min-height: 4em;
+  }
+  
+  .user-form-container form div label {
+    color: white;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    display: block;
+    font-size: 17px;
+    margin-top: 0.5em;
+  }
+  
+  .user-form-container form div input {
+    height: 2.5em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 90%;
+    padding-left: 1em;
+  }
+  
+  .user-form-container form div input::-moz-placeholder {
+    padding-left: 1em;
+    color: rgba(128, 128, 128, 0.479);
+  }
+  
+  .user-form-container form div input:-ms-input-placeholder {
+    padding-left: 1em;
+    color: rgba(128, 128, 128, 0.479);
+  }
+  
+  .user-form-container form div input::placeholder {
+    padding-left: 1em;
+    color: rgba(128, 128, 128, 0.479);
+  }
+  
+  .user-form-container form div input:focus {
+    border: 1px solid #0a0a0a;
+  }
+  
+  .user-form-container form .create-account-btn {
+    margin-top: 2em;
+  }
+  
+  .user-form-container form .create-account-btn button {
+    width: 90%;
+    height: 2.5em;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(90.06deg, #24CEF0 -6.3%, #24EBCA 100.57%);
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    color: white;
+  }
+  
+  .already-have-account {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    /* or 150% */
+    font-feature-settings: "tnum" on, "lnum" on;
+    /* Gray/gray-1 */
+    color: #FFFFFF;
+  }
+  
+  .already-have-account a {
+    background: linear-gradient(90.06deg, #24CEF0 -6.3%, #24EBCA 100.57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .message {
+    min-height: 1.5em !important;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  input {
+    background-color: #fff;
+    color: #051937 !important;
+  }
+  
+  @media (min-width: 1024px) {
+    form {
+      width: 50%;
+    }
+  }
+  .signbtn {
+    color: #113995;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  /*Mobvies styles  */
+.individualMovi{
+  min-height: 50vh;
+  width: 100%;
+  margin-top: 2em;
+  color: white;
+}
+
+.individualMovi-inner-container{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin-bottom: 2em;
+}
+.individualMovi-image{
+  width: 90%;
+  height: 30vh;
+}
+.individualMovi-image img{
+  width:80%;
+  height: 20em;
+}
+
+.individualMovi-tex .genre{
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+.type{
+   height: 2em;
+    width: 9em;
+    background-color: rgba(255, 255, 255, 0.235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.comments{
+  margin-top: 4em;
+}
+.comments-text{
+  min-height: 3em;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.235);
+  border-radius: 10px;
+  padding: 0.2em 4em;
+
+}
+
+.comments-textarea{
+  width: 100%;
+  height: 10em;
+  border-radius: 10px;
+  padding: 1em ;
+}
+.space{
+  margin-top: 2em;
+  margin-bottom: 5em;
+}
+.nox-con{
+  width: 100%;
+  position: relative;
+}
+
+.user_icon{
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  /* margin-right: 1em; */
+  background-color: #113995;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-size: 2em; */
+  color: white;
+}
+
+  
+  /*# sourceMappingURL=main.css.map */
